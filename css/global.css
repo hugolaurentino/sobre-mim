@@ -1,0 +1,22 @@
+:root{
+  --cor-top: blue;
+  --cor-fundo:white;
+  --cor-testo: black;
+}
+
+* {
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  font-family: sans-serif;
+
+  background-color: var( --cor-fundo);
+  color:var(--cor-testo);
+}
